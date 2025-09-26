@@ -17,16 +17,27 @@ El comportamiento es el siguiente:
 ## Estructura del proyecto
 
 ├── Makefile
+
 ├── controller/
+
 │ └── ctl.c
+
 ├── sensor/
+
 │ ├── sensor.c
+
 │ └── sensor.h
+
 ├── actuators/
+
 │ ├── actuator.h
+
 │ ├── led_actuator.c
+
 │ └── buzzer_actuator.c
+
 └── tests/
+
   └── output.csv (se genera automáticamente al ejecutar)
 
 ##  Requisitos
