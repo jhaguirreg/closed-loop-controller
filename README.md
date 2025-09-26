@@ -15,31 +15,28 @@ El comportamiento es el siguiente:
 
 
 ## Estructura del proyecto
-´´´
+
+```ASCII
+embedded-session-hw/
 ├── Makefile
-
-├── controller/
-
-│ └── ctl.c
-
+├── README.md
+├── ai_log.md
 ├── sensor/
-
-│ ├── sensor.c
-
-│ └── sensor.h
-
+│ ├── sensor.h
+│ └── sensor.c
 ├── actuators/
-
 │ ├── actuator.h
-
 │ ├── led_actuator.c
-
 │ └── buzzer_actuator.c
-
+├── controller/
+│ └── ctl.c
 └── tests/
+  ├── test_buzzer.c
+  ├── test_led.c
+  ├── test_sensor.c
+  └── sensor_feed.csv
+```
 
-  └── output.csv (se genera automáticamente al ejecutar)
-´´´
 
 ##  Requisitos
 
