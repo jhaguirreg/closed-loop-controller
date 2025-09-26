@@ -144,10 +144,12 @@ Esto permite:
 El proyecto incluye tests unitarios para los módulos de sensores y actuadores.  
 Los tests se encuentran en la carpeta `tests/`:
 
-tests/
-├── test_sensor.c
-├── test_led.c
-├── test_buzzer.c
+```ASCII
+└── tests/
+  ├── test_buzzer.c
+  ├── test_led.c
+  ├── test_sensor.c
+```
 
 Cada test genera un binario independiente.
 
@@ -156,19 +158,23 @@ Cada test genera un binario independiente.
 ### Compilar los tests
 
 Compilar todos los tests:
-
+```bash
 make tests
+```
 Compilar un test específico:
-
+```bash
 make tests/test_sensor
 make tests/test_led
 make tests/test_buzzer
+```
 Ejecutar los tests
 Después de compilar, ejecuta un test:
-
+```bash
 ./tests/test_sensor
 ./tests/test_led
 ./tests/test_buzzer
+```
 O compilar y ejecutar todos los tests automáticamente (si el Makefile tiene run-tests):
-
+```bash
 make run-tests
+```
