@@ -51,17 +51,19 @@ El proyecto utiliza un **Makefile** que automatiza la compilación, ejecución y
 ### Compilar en 64 bits
 ```bash
 make ctl64
-´´´
+```
 Genera el ejecutable ctl64 (no lo ejecuta).
 
 ### Compilar en 32 bits (opcional)
 ```bash
 make ctl32
+```
 Genera el ejecutable ctl32 en modo 32 bits (requiere librerías multilib instaladas).
 
 ### Ejecutar y guardar resultados (64 bits)
 ```bash
 make run64
+```
 Ejecuta ctl64.
 
 Guarda automáticamente la salida en tests/output.csv.
@@ -69,6 +71,7 @@ Guarda automáticamente la salida en tests/output.csv.
 ### Ejecutar y guardar resultados (32 bits)
 ```bash
 make run32
+```
 Ejecuta ctl32.
 
 Guarda la salida en tests/output.csv.
@@ -79,10 +82,12 @@ Verifica la arquitectura del ejecutable y su cabecera ELF:
 ```bash
 make inspect64
 make inspect32
+```
 
 ### Limpieza
 ```bash
 make clean
+```
 Elimina los objetos compilados (.o), binarios (ctl64, ctl32) y la salida tests/output.csv.
 
 ### Salida del programa
