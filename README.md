@@ -51,6 +51,7 @@ El proyecto utiliza un **Makefile** que automatiza la compilación, ejecución y
 ### Compilar en 64 bits
 ```bash
 make ctl64
+´´´
 Genera el ejecutable ctl64 (no lo ejecuta).
 
 ### Compilar en 32 bits (opcional)
