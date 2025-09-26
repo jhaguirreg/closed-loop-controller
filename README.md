@@ -17,7 +17,6 @@ El comportamiento es el siguiente:
 ## Estructura del proyecto
 
 ├── Makefile
-
 ├── controller/
 
 │ └── ctl.c
