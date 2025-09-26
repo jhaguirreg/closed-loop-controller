@@ -15,8 +15,9 @@ El comportamiento es el siguiente:
 
 
 ## Estructura del proyecto
-
+´´´
 ├── Makefile
+
 ├── controller/
 
 │ └── ctl.c
@@ -38,6 +39,7 @@ El comportamiento es el siguiente:
 └── tests/
 
   └── output.csv (se genera automáticamente al ejecutar)
+´´´
 
 ##  Requisitos
 
